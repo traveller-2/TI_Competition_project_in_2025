@@ -1,0 +1,12 @@
+ti_2023\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c
+ti_2023\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+ti_2023\port.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+ti_2023\port.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+ti_2023\port.o: ../Core/Inc/FreeRTOSConfig.h
+ti_2023\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+ti_2023\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+ti_2023\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+ti_2023\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+ti_2023\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+ti_2023\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+ti_2023\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

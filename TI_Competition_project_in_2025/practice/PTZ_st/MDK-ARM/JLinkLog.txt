@@ -1,0 +1,24 @@
+T77B4 001:873.671   SEGGER J-Link V7.98c Log File
+T77B4 001:877.907   DLL Compiled: Aug  7 2024 15:37:06
+T77B4 001:877.918   Logging started @ 2025-07-16 04:55
+T77B4 001:877.928   Process: D:\Keil_v5\UV4\UV4.exe
+T77B4 001:878.071 - 1877.937ms
+T77B4 001:878.196 JLINK_SetWarnOutHandler(...)
+T77B4 001:878.207 - 0.119ms
+T77B4 001:878.221 JLINK_OpenEx(...)
+T77B4 001:880.772   
+  ***** Error: 
+T77B4 001:880.798   Cannot connect to J-Link.
+T77B4 001:881.304 - 3.082ms returns "Cannot connect to J-Link."
+T77B4 001:881.490 
+  ***** Warning: 
+T77B4 001:881.508 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T77B4 001:881.524 JLINK_GetHardwareVersion()
+T77B4 001:883.008   
+  ***** Error: 
+T77B4 001:883.508   Cannot connect to J-Link.
+T77B4 001:883.535 - 2.011ms
+T77B4 003:594.016 JLINK_Close()
+T77B4 003:594.087 - 0.071ms
+T77B4 003:594.091   
+T77B4 003:594.095   Closed
