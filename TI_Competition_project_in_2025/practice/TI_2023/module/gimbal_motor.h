@@ -9,11 +9,29 @@
 #define GIMBAL_CMD_QUEUE_LEN   8  // 队列长度可根据需要调整
 
 // === 控制命令结构体 ===
+typedef enum {
+    MOTOR_CTRL_SPEED,
+    MOTOR_CTRL_POSITION,
+    MOTOR_CTRL_ZERO
+} GimbalCtrlMode_t;
+
 typedef struct {
-    uint8_t  id;       // 电机 ID（通常为 1 或 2）
-    int16_t  rpm;      // 转速（正为正转，负为反转）
-    uint8_t  acc;      // 加速度（电机内部处理）
+    uint8_t id;        // 电机地址
+    GimbalCtrlMode_t mode; // 控制模式
+    int16_t rpm;       // 速度模式 or 位置模式转速
+    uint8_t acc;       // 加速度档位
+    int32_t pulse;     // 位置控制用：脉冲数
+    uint8_t pos_mode;  // 位置控制用：相对0 / 绝对1
+    uint8_t zero_mode; // 回零控制用：00/01/02/03
 } GimbalControlCmd_t;
+
+
+
+//typedef struct {
+//    uint8_t  id;       // 电机 ID（通常为 1 或 2）
+//    int16_t  rpm;      // 转速（正为正转，负为反转）
+//    uint8_t  acc;      // 加速度（电机内部处理）
+//} GimbalControlCmd_t;
 
 // === API 函数声明 ===
 
@@ -41,7 +59,13 @@ bool GimbalMotor_SendCmd(GimbalControlCmd_t *cmd);
  * @param rpm 回中转速
  * @param sync 是否启用同步模式
  */
-void send_motor_origin(uint8_t id, uint16_t rpm, bool sync);
+void send_motor_velocity(uint8_t id, int16_t rpm, uint8_t acc, uint8_t dir);
+
+void send_motor_position(uint8_t id, int16_t rpm, uint8_t acc, int32_t pulse, uint8_t pos_mode);
+
+void send_motor_zeroing(uint8_t id, uint8_t zero_mode);
+
+void send_motor_set_zero_position(uint8_t id, uint8_t save_flag);
 
 void send_motor_frame(const uint8_t *data, uint8_t len);
 

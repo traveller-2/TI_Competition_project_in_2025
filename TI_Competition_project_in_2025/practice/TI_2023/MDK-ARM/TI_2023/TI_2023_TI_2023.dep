@@ -47,7 +47,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x68279
 I (../Core/Inc/usart.h)(0x68775B75)
 I (../Core/Inc/gpio.h)(0x68774E99)
 I (../module/device_reader.h)(0x6877A83D)
-I (../module/gimbal_motor.h)(0x6877701D)
+I (../module/gimbal_motor.h)(0x687911FD)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x671FB141)
 I (../bsp/bsp_usart.h)(0x6877A7CA)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x671FB142)
@@ -994,8 +994,8 @@ I (../Core/Inc/main.h)(0x68774E9A)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x671FB142)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x671FB141)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x671FB144)
-F (..\module\gimbal_motor.c)(0x6878C00B)(--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../bsp -I ../module -I ../application-I.\RTE\_TI_2023-ID:\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o ti_2023\gimbal_motor.o --omf_browse ti_2023\gimbal_motor.crf --depend ti_2023\gimbal_motor.d)
-I (..\module\gimbal_motor.h)(0x6877701D)
+F (..\module\gimbal_motor.c)(0x68791738)(--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../bsp -I ../module -I ../application-I.\RTE\_TI_2023-ID:\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o ti_2023\gimbal_motor.o --omf_browse ti_2023\gimbal_motor.crf --depend ti_2023\gimbal_motor.d)
+I (..\module\gimbal_motor.h)(0x687911FD)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x671FB141)
 I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x671FB141)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x68279ADE)
