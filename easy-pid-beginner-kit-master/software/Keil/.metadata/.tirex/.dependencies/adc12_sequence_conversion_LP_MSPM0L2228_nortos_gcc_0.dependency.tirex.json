@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../adc12_sequence_conversion.c -> adc12_sequence_conversion.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../adc12_sequence_conversion.syscfg -> adc12_sequence_conversion.syscfg"
+        ]
+    }
+]

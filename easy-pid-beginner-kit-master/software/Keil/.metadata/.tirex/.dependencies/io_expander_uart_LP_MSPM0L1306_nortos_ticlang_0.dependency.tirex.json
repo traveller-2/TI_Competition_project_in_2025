@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../io_expander_uart.c -> io_expander_uart.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../io_expander_uart.syscfg -> io_expander_uart.syscfg"
+        ]
+    }
+]

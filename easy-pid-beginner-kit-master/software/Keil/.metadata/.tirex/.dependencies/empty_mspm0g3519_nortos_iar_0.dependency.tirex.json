@@ -1,0 +1,11 @@
+[
+    {
+        "files": [
+            "+startup_mspm0g351x_iar.c -> startup_mspm0g351x_iar.c",
+            "+../empty_mspm0g3519.c -> empty_mspm0g3519.c",
+            "+../empty_mspm0g3519.syscfg -> empty_mspm0g3519.syscfg",
+            "+mspm0g3519.icf -> mspm0g3519.icf",
+            "+../README.md -> README.md"
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+../smbus_target_ARP.c -> smbus_target_ARP.c",
+            "+../SMBus_Commands_List.c -> SMBus_Commands_List.c",
+            "+../SMBus_Commands_List.h -> SMBus_Commands_List.h",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../smbus_target_ARP.syscfg -> smbus_target_ARP.syscfg"
+        ]
+    }
+]

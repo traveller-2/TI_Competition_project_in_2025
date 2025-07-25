@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+startup_mspm0c110x_iar.c -> startup_mspm0c110x_iar.c",
+            "+../crc_calculate_checksum_dma.c -> crc_calculate_checksum_dma.c",
+            "+../crc_calculate_checksum_dma.syscfg -> crc_calculate_checksum_dma.syscfg",
+            "+mspm0c1104.icf -> mspm0c1104.icf"
+        ]
+    }
+]

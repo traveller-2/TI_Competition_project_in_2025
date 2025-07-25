@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../trng_sample.c -> trng_sample.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../trng_sample.syscfg -> trng_sample.syscfg"
+        ]
+    }
+]

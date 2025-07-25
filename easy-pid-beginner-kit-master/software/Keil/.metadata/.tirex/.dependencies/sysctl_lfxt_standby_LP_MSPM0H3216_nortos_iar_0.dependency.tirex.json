@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+startup_mspm0h321x_iar.c -> startup_mspm0h321x_iar.c",
+            "+mspm0h3216.icf -> mspm0h3216.icf",
+            "+../README.html -> README.html",
+            "+../README.md -> README.md",
+            "+../sysctl_lfxt_standby.c -> sysctl_lfxt_standby.c",
+            "+../sysctl_lfxt_standby.syscfg -> sysctl_lfxt_standby.syscfg"
+        ]
+    }
+]

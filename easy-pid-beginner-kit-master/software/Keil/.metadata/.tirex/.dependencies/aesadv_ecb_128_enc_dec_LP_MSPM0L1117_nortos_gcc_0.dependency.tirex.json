@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../aesadv_ecb_128_enc_dec.c -> aesadv_ecb_128_enc_dec.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../aesadv_ecb_128_enc_dec.syscfg -> aesadv_ecb_128_enc_dec.syscfg"
+        ]
+    }
+]

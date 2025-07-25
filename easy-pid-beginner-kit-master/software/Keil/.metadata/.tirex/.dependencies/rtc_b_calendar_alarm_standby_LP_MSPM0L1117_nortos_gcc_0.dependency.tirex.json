@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../rtc_b_calendar_alarm_standby.c -> rtc_b_calendar_alarm_standby.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../rtc_b_calendar_alarm_standby.syscfg -> rtc_b_calendar_alarm_standby.syscfg"
+        ]
+    }
+]

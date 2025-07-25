@@ -1,0 +1,20 @@
+[
+    {
+        "files": [
+            "+../BQ769x2_Configs/BQ769x2_protocol.c -> BQ769x2_Configs/BQ769x2_protocol.c",
+            "+../BQ769x2_Configs/BQ769x2_protocol.h -> BQ769x2_Configs/BQ769x2_protocol.h",
+            "+../Communications/CAN_communication.c -> Communications/CAN_communication.c",
+            "+../Communications/CAN_communication.h -> Communications/CAN_communication.h",
+            "+../Communications/I2C_communication.c -> Communications/I2C_communication.c",
+            "+../Communications/I2C_communication.h -> Communications/I2C_communication.h",
+            "+../Communications/UART_communication.c -> Communications/UART_communication.c",
+            "+../Communications/UART_communication.h -> Communications/UART_communication.h",
+            "+../App_task.c -> App_task.c",
+            "+../App_task.h -> App_task.h",
+            "+../main.c -> main.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../bq769x2_TIDA010247.syscfg -> bq769x2_TIDA010247.syscfg"
+        ]
+    }
+]

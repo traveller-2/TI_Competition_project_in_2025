@@ -1,0 +1,11 @@
+[
+    {
+        "files": [
+            "+startup_mspm0l111x_iar.c -> startup_mspm0l111x_iar.c",
+            "+../empty_mspm0l1117.c -> empty_mspm0l1117.c",
+            "+../empty_mspm0l1117.syscfg -> empty_mspm0l1117.syscfg",
+            "+mspm0l1117.icf -> mspm0l1117.icf",
+            "+../README.md -> README.md"
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+startup_mspm0g351x_iar.c -> startup_mspm0g351x_iar.c",
+            "+../mcan_message_rx.c -> mcan_message_rx.c",
+            "+../mcan_message_rx.syscfg -> mcan_message_rx.syscfg",
+            "+mspm0g3519.icf -> mspm0g3519.icf",
+            "+../README.html -> README.html",
+            "+../README.md -> README.md"
+        ]
+    }
+]

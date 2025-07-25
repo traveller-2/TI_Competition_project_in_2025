@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../transimpedance_amplifier.c -> transimpedance_amplifier.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../transimpedance_amplifier.syscfg -> transimpedance_amplifier.syscfg"
+        ]
+    }
+]

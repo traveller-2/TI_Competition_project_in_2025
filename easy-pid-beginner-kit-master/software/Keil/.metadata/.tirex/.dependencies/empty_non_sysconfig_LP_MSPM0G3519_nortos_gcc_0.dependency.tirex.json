@@ -1,0 +1,13 @@
+[
+    {
+        "files": [
+            "+../empty_non_sysconfig.c -> empty_non_sysconfig.c",
+            "+../ti_msp_dl_config.c -> ti_msp_dl_config.c",
+            "+../ti_msp_dl_config.h -> ti_msp_dl_config.h",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+mspm0g3519.lds -> mspm0g3519.lds",
+            "+startup_mspm0g351x_gcc.c -> startup_mspm0g351x_gcc.c"
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../pmbus_controller_groupCmd.c -> pmbus_controller_groupCmd.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../pmbus_controller_groupCmd.syscfg -> pmbus_controller_groupCmd.syscfg"
+        ]
+    }
+]

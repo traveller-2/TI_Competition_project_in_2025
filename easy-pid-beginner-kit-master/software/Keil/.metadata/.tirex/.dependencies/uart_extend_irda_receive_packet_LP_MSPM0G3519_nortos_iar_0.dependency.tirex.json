@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+startup_mspm0g351x_iar.c -> startup_mspm0g351x_iar.c",
+            "+mspm0g3519.icf -> mspm0g3519.icf",
+            "+../README.html -> README.html",
+            "+../README.md -> README.md",
+            "+../uart_extend_irda_receive_packet.c -> uart_extend_irda_receive_packet.c",
+            "+../uart_extend_irda_receive_packet.syscfg -> uart_extend_irda_receive_packet.syscfg"
+        ]
+    }
+]

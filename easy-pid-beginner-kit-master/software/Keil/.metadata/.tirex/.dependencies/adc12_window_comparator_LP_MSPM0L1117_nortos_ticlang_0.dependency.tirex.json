@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../adc12_window_comparator.c -> adc12_window_comparator.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../adc12_window_comparator.syscfg -> adc12_window_comparator.syscfg"
+        ]
+    }
+]

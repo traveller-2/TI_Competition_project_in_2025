@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+startup_mspm0g351x_iar.c -> startup_mspm0g351x_iar.c",
+            "+../gpio_toggle_output.c -> gpio_toggle_output.c",
+            "+../gpio_toggle_output.syscfg -> gpio_toggle_output.syscfg",
+            "+mspm0g3519.icf -> mspm0g3519.icf",
+            "+../README.html -> README.html",
+            "+../README.md -> README.md"
+        ]
+    }
+]

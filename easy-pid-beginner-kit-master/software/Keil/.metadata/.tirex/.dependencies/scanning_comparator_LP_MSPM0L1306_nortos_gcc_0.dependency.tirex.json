@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+../comparator_hal.c -> comparator_hal.c",
+            "+../comparator_hal.h -> comparator_hal.h",
+            "+../scanning_comparator.c -> scanning_comparator.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../scanning_comparator.syscfg -> scanning_comparator.syscfg"
+        ]
+    }
+]

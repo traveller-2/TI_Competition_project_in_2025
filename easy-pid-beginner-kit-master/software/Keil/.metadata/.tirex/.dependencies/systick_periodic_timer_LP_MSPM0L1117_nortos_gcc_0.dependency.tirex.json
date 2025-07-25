@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../systick_periodic_timer.c -> systick_periodic_timer.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../systick_periodic_timer.syscfg -> systick_periodic_timer.syscfg"
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+../expander.c -> expander.c",
+            "+../expander.h -> expander.h",
+            "+../io_expander_uart_i2c_spi.c -> io_expander_uart_i2c_spi.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../io_expander_uart_i2c_spi.syscfg -> io_expander_uart_i2c_spi.syscfg"
+        ]
+    }
+]

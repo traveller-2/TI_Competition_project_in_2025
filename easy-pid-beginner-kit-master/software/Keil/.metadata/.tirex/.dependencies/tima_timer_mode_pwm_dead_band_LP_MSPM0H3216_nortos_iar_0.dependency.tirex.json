@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+startup_mspm0h321x_iar.c -> startup_mspm0h321x_iar.c",
+            "+mspm0h3216.icf -> mspm0h3216.icf",
+            "+../README.html -> README.html",
+            "+../README.md -> README.md",
+            "+../tima_timer_mode_pwm_dead_band.c -> tima_timer_mode_pwm_dead_band.c",
+            "+../tima_timer_mode_pwm_dead_band.syscfg -> tima_timer_mode_pwm_dead_band.syscfg"
+        ]
+    }
+]

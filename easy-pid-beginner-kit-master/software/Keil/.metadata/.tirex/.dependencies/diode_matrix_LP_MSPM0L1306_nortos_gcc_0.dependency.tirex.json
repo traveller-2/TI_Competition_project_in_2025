@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../diode_matrix.c -> diode_matrix.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../diode_matrix.syscfg -> diode_matrix.syscfg"
+        ]
+    }
+]

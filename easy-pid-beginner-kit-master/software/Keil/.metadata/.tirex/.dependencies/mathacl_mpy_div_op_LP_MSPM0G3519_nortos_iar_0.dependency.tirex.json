@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+startup_mspm0g351x_iar.c -> startup_mspm0g351x_iar.c",
+            "+../mathacl_mpy_div_op.c -> mathacl_mpy_div_op.c",
+            "+../mathacl_mpy_div_op.syscfg -> mathacl_mpy_div_op.syscfg",
+            "+mspm0g3519.icf -> mspm0g3519.icf"
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "files": [
+            "+startup_mspm0l130x_iar.c -> startup_mspm0l130x_iar.c",
+            "+../expander.c -> expander.c",
+            "+../expander.h -> expander.h",
+            "+../io_expander_uart_i2c_spi.c -> io_expander_uart_i2c_spi.c",
+            "+../io_expander_uart_i2c_spi.syscfg -> io_expander_uart_i2c_spi.syscfg",
+            "+mspm0l1306.icf -> mspm0l1306.icf",
+            "+../README.html -> README.html",
+            "+../README.md -> README.md"
+        ]
+    }
+]

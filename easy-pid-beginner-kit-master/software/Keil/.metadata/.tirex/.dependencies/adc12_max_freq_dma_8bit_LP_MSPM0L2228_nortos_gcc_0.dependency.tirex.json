@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../adc12_max_freq_dma_8bit.c -> adc12_max_freq_dma_8bit.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../adc12_max_freq_dma_8bit.syscfg -> adc12_max_freq_dma_8bit.syscfg"
+        ]
+    }
+]

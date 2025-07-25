@@ -1,0 +1,14 @@
+[
+    {
+        "files": [
+            "+../pmbus_target.c -> pmbus_target.c",
+            "+../pmbus_cmd_list.c -> pmbus_cmd_list.c",
+            "+../pmbus_cmd_list.h -> pmbus_cmd_list.h",
+            "+../pmbus_cmd_handlers.c -> pmbus_cmd_handlers.c",
+            "+../pmbus_cmd_handlers.h -> pmbus_cmd_handlers.h",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../pmbus_target.syscfg -> pmbus_target.syscfg"
+        ]
+    }
+]

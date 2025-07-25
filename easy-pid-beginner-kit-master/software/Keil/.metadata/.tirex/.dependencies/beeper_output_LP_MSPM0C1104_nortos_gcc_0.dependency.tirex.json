@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../beeper_output.c -> beeper_output.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../beeper_output.syscfg -> beeper_output.syscfg"
+        ]
+    }
+]

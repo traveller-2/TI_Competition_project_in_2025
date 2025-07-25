@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../opa_non_inverting_pga.c -> opa_non_inverting_pga.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../opa_non_inverting_pga.syscfg -> opa_non_inverting_pga.syscfg"
+        ]
+    }
+]

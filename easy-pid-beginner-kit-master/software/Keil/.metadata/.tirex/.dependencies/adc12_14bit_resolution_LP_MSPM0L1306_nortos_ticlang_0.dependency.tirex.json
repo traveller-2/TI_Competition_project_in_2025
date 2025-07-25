@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../adc12_14bit_resolution.c -> adc12_14bit_resolution.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../adc12_14bit_resolution.syscfg -> adc12_14bit_resolution.syscfg"
+        ]
+    }
+]

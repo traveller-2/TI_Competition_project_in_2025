@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+startup_mspm0g351x_iar.c -> startup_mspm0g351x_iar.c",
+            "+../dac12_fifo_timer_event.c -> dac12_fifo_timer_event.c",
+            "+../dac12_fifo_timer_event.syscfg -> dac12_fifo_timer_event.syscfg",
+            "+mspm0g3519.icf -> mspm0g3519.icf",
+            "+../README.html -> README.html",
+            "+../README.md -> README.md"
+        ]
+    }
+]

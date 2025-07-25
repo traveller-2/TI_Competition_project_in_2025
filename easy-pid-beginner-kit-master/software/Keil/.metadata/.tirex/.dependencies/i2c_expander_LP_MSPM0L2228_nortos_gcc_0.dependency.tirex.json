@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../i2c_expander.c -> i2c_expander.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../i2c_expander.syscfg -> i2c_expander.syscfg"
+        ]
+    }
+]

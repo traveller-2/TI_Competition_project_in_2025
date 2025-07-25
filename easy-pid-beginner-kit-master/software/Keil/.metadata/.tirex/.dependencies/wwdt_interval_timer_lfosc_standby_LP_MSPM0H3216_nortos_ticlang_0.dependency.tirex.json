@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../wwdt_interval_timer_lfosc_standby.c -> wwdt_interval_timer_lfosc_standby.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../wwdt_interval_timer_lfosc_standby.syscfg -> wwdt_interval_timer_lfosc_standby.syscfg"
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../adc_to_pwm.c -> adc_to_pwm.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../adc_to_pwm.syscfg -> adc_to_pwm.syscfg"
+        ]
+    }
+]

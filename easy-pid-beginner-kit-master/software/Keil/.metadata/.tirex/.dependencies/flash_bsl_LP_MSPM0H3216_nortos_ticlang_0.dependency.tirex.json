@@ -1,0 +1,20 @@
+[
+    {
+        "files": [
+            "+../flashBSL_ci.c -> flashBSL_ci.c",
+            "+../flashBSL_ci.h -> flashBSL_ci.h",
+            "+../ti_msp_dl_config.h -> ti_msp_dl_config.h",
+            "+../flashBSL_i2c.c -> flashBSL_i2c.c",
+            "+../flashBSL_i2c.h -> flashBSL_i2c.h",
+            "+../flashBSL_modules.h -> flashBSL_modules.h",
+            "+../flashBSL_uart.c -> flashBSL_uart.c",
+            "+../flashBSL_uart.h -> flashBSL_uart.h",
+            "+../flashBSL.c -> flashBSL.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../flash_bsl.syscfg -> flash_bsl.syscfg",
+            "+mspm0h3216.cmd -> mspm0h3216.cmd",
+            "+startup_mspm0h3216_ticlang.c -> startup_mspm0h3216_ticlang.c"
+        ]
+    }
+]

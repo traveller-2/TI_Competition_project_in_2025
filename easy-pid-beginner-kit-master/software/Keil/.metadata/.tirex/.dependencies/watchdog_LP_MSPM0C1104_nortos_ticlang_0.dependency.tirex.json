@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+../watchdog_hal.c -> watchdog_hal.c",
+            "+../watchdog_hal.h -> watchdog_hal.h",
+            "+../watchdog.c -> watchdog.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../watchdog.syscfg -> watchdog.syscfg"
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../mcan_message_rx.c -> mcan_message_rx.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../mcan_message_rx.syscfg -> mcan_message_rx.syscfg"
+        ]
+    }
+]

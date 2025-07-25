@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+../i2c_target.c -> i2c_target.c",
+            "+../ti/comm_modules/i2c/target/i2c_comm_target.c -> ti/comm_modules/i2c/target/i2c_comm_target.c",
+            "+../ti/comm_modules/i2c/target/i2c_comm_target.h -> ti/comm_modules/i2c/target/i2c_comm_target.h",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../i2c_target.syscfg -> i2c_target.syscfg"
+        ]
+    }
+]

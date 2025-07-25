@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+startup_mspm0l222x_iar.c -> startup_mspm0l222x_iar.c",
+            "+mspm0l2228.icf -> mspm0l2228.icf",
+            "+../pushbutton_change_pwm.c -> pushbutton_change_pwm.c",
+            "+../pushbutton_change_pwm.syscfg -> pushbutton_change_pwm.syscfg",
+            "+../README.html -> README.html",
+            "+../README.md -> README.md"
+        ]
+    }
+]

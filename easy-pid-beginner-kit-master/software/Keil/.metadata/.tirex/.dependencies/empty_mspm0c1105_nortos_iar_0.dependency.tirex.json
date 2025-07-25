@@ -1,0 +1,11 @@
+[
+    {
+        "files": [
+            "+startup_mspm0c1105_c1106_iar.c -> startup_mspm0c1105_c1106_iar.c",
+            "+../empty_mspm0c1105.c -> empty_mspm0c1105.c",
+            "+../empty_mspm0c1105.syscfg -> empty_mspm0c1105.syscfg",
+            "+mspm0c1105.icf -> mspm0c1105.icf",
+            "+../README.md -> README.md"
+        ]
+    }
+]

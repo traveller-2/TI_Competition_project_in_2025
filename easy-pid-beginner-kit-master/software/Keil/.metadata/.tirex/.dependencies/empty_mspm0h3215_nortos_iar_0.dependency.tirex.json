@@ -1,0 +1,11 @@
+[
+    {
+        "files": [
+            "+startup_mspm0h321x_iar.c -> startup_mspm0h321x_iar.c",
+            "+../empty_mspm0h3215.c -> empty_mspm0h3215.c",
+            "+../empty_mspm0h3215.syscfg -> empty_mspm0h3215.syscfg",
+            "+mspm0h3215.icf -> mspm0h3215.icf",
+            "+../README.md -> README.md"
+        ]
+    }
+]

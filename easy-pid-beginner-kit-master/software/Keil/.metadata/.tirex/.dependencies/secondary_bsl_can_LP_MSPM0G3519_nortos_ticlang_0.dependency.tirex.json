@@ -1,0 +1,17 @@
+[
+    {
+        "files": [
+            "+../bsl_ci.c -> bsl_ci.c",
+            "+../bsl_ci.h -> bsl_ci.h",
+            "+../bsl_mcan.c -> bsl_mcan.c",
+            "+../bsl_mcan.h -> bsl_mcan.h",
+            "+../secondary_bsl.c -> secondary_bsl.c",
+            "+../secondary_bsl.h -> secondary_bsl.h",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../secondary_bsl_can.syscfg -> secondary_bsl_can.syscfg",
+            "+mspm0g3519.cmd -> mspm0g3519.cmd",
+            "+startup_mspm0g351x_ticlang.c -> startup_mspm0g351x_ticlang.c"
+        ]
+    }
+]

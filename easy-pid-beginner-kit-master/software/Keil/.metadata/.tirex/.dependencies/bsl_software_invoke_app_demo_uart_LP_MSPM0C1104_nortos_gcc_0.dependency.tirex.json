@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+../flash_bsl_app_invoke.c -> flash_bsl_app_invoke.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../flash_bsl_app_invoke_uart.syscfg -> flash_bsl_app_invoke_uart.syscfg",
+            "+mspm0c1104.lds -> mspm0c1104.lds",
+            "+startup_mspm0c110x_gcc.c -> startup_mspm0c110x_gcc.c"
+        ]
+    }
+]

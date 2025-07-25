@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../i2c_expander_uart_to_i2c_bridge.c -> i2c_expander_uart_to_i2c_bridge.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../i2c_expander_uart_to_i2c_bridge.syscfg -> i2c_expander_uart_to_i2c_bridge.syscfg"
+        ]
+    }
+]

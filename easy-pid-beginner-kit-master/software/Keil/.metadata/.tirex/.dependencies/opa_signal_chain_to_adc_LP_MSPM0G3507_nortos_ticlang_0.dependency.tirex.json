@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../opa_signal_chain_to_adc.c -> opa_signal_chain_to_adc.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../opa_signal_chain_to_adc.syscfg -> opa_signal_chain_to_adc.syscfg"
+        ]
+    }
+]

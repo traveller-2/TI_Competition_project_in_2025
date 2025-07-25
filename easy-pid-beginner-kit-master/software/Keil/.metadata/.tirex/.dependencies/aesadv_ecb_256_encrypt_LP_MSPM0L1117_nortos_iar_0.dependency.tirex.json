@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+startup_mspm0l111x_iar.c -> startup_mspm0l111x_iar.c",
+            "+../aesadv_ecb_256_encrypt.c -> aesadv_ecb_256_encrypt.c",
+            "+../aesadv_ecb_256_encrypt.syscfg -> aesadv_ecb_256_encrypt.syscfg",
+            "+mspm0l1117.icf -> mspm0l1117.icf",
+            "+../README.html -> README.html",
+            "+../README.md -> README.md"
+        ]
+    }
+]

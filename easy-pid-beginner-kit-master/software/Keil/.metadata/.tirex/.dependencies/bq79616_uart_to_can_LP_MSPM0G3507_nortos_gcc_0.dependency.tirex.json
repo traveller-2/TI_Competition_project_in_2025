@@ -1,0 +1,15 @@
+[
+    {
+        "files": [
+            "+../B0_reg.h -> B0_reg.h",
+            "+../BQ79616.c -> BQ79616.c",
+            "+../BQ79616.h -> BQ79616.h",
+            "+../main.c -> main.c",
+            "+../UART.c -> UART.c",
+            "+../UART.h -> UART.h",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../bq79616_uart_to_can.syscfg -> bq79616_uart_to_can.syscfg"
+        ]
+    }
+]

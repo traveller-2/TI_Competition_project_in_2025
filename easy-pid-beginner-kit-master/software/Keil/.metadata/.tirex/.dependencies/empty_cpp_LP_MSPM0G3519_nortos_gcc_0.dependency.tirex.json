@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../empty_cpp.cpp -> empty_cpp.cpp",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../empty_cpp.syscfg -> empty_cpp.syscfg"
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "files": [
+            "+startup_mspm0l130x_iar.c -> startup_mspm0l130x_iar.c",
+            "+../comparator_hal.c -> comparator_hal.c",
+            "+../comparator_hal.h -> comparator_hal.h",
+            "+mspm0l1306.icf -> mspm0l1306.icf",
+            "+../README.html -> README.html",
+            "+../README.md -> README.md",
+            "+../scanning_comparator.c -> scanning_comparator.c",
+            "+../scanning_comparator.syscfg -> scanning_comparator.syscfg"
+        ]
+    }
+]

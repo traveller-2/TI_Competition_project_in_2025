@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../adc_dma_ping_pong.c -> adc_dma_ping_pong.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../adc_dma_ping_pong.syscfg -> adc_dma_ping_pong.syscfg"
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../timx_timer_mode_pwm_edge_sleep_shadow.c -> timx_timer_mode_pwm_edge_sleep_shadow.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../timx_timer_mode_pwm_edge_sleep_shadow.syscfg -> timx_timer_mode_pwm_edge_sleep_shadow.syscfg"
+        ]
+    }
+]

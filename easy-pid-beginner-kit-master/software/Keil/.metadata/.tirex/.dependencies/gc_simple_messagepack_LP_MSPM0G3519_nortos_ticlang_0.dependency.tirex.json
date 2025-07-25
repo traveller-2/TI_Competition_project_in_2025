@@ -1,0 +1,19 @@
+[
+    {
+        "files": [
+            "+../callbacks_mpack.c -> callbacks_mpack.c",
+            "+../callbacks_mpack.h -> callbacks_mpack.h",
+            "+../MSP_GUI/GUI_mpack.h -> MSP_GUI/GUI_mpack.h",
+            "+../MSP_GUI/GUI_mpack.c -> MSP_GUI/GUI_mpack.c",
+            "+../MSP_GUI/GUIComm_mpack.h -> MSP_GUI/GUIComm_mpack.h",
+            "+../MSP_GUI/GUIComm_mpack.c -> MSP_GUI/GUIComm_mpack.c",
+            "+../HAL_UART_M0G3519.c -> HAL_UART_M0G3519.c",
+            "+../main.c -> main.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../gc_simple_messagepack.syscfg -> gc_simple_messagepack.syscfg",
+            "+mspm0g3519.cmd -> mspm0g3519.cmd",
+            "+startup_mspm0g351x_ticlang.c -> startup_mspm0g351x_ticlang.c"
+        ]
+    }
+]

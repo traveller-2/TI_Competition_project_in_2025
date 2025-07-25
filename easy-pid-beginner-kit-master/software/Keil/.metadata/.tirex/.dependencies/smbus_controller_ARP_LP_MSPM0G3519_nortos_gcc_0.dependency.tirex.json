@@ -1,0 +1,11 @@
+[
+    {
+        "files": [
+            "+../smbus_controller_ARP.c -> smbus_controller_ARP.c",
+            "+../SMBUS_Demo.h -> SMBUS_Demo.h",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../smbus_controller_ARP.syscfg -> smbus_controller_ARP.syscfg"
+        ]
+    }
+]

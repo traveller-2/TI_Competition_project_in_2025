@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../lcd_single_port.c -> lcd_single_port.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../lcd_single_port.syscfg -> lcd_single_port.syscfg"
+        ]
+    }
+]

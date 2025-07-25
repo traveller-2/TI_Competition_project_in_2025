@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../pwm_led_driver.c -> pwm_led_driver.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../pwm_led_driver.syscfg -> pwm_led_driver.syscfg"
+        ]
+    }
+]

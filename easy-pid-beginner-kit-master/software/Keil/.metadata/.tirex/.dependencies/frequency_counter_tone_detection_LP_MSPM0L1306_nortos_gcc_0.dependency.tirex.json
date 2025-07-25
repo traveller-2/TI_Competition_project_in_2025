@@ -1,0 +1,10 @@
+[
+    {
+        "files": [
+            "+../frequency_counter_tone_detection.c -> frequency_counter_tone_detection.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../frequency_counter_tone_detection.syscfg -> frequency_counter_tone_detection.syscfg"
+        ]
+    }
+]
