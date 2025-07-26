@@ -429,6 +429,21 @@
               <FileType>1</FileType>
               <FilePath>..\module\Emm.c</FilePath>
             </File>
+            <File>
+              <FileName>hw_lcd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\module\hw_lcd.c</FilePath>
+            </File>
+            <File>
+              <FileName>motorDriver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\module\motorDriver.c</FilePath>
+            </File>
+            <File>
+              <FileName>motorMonitor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\module\motorMonitor.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

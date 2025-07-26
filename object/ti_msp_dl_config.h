@@ -73,8 +73,12 @@ extern "C" {
 #define POWER_STARTUP_DELAY                                                (16)
 
 
-
-#define CPUCLK_FREQ                                                     32000000
+#define GPIO_HFXT_PORT                                                     GPIOA
+#define GPIO_HFXIN_PIN                                             DL_GPIO_PIN_5
+#define GPIO_HFXIN_IOMUX                                         (IOMUX_PINCM10)
+#define GPIO_HFXOUT_PIN                                            DL_GPIO_PIN_6
+#define GPIO_HFXOUT_IOMUX                                        (IOMUX_PINCM11)
+#define CPUCLK_FREQ                                                     80000000
 
 
 
@@ -82,7 +86,7 @@ extern "C" {
 #define PWM_LED_INST                                                       TIMG8
 #define PWM_LED_INST_IRQHandler                                 TIMG8_IRQHandler
 #define PWM_LED_INST_INT_IRQN                                   (TIMG8_INT_IRQn)
-#define PWM_LED_INST_CLK_FREQ                                            4000000
+#define PWM_LED_INST_CLK_FREQ                                            5000000
 /* GPIO defines for channel 1 */
 #define GPIO_PWM_LED_C1_PORT                                               GPIOB
 #define GPIO_PWM_LED_C1_PIN                                       DL_GPIO_PIN_22
@@ -90,13 +94,37 @@ extern "C" {
 #define GPIO_PWM_LED_C1_IOMUX_FUNC                   IOMUX_PINCM50_PF_TIMG8_CCP1
 #define GPIO_PWM_LED_C1_IDX                                  DL_TIMER_CC_1_INDEX
 
+/* Defines for PWM_MOTORL */
+#define PWM_MOTORL_INST                                                    TIMA0
+#define PWM_MOTORL_INST_IRQHandler                              TIMA0_IRQHandler
+#define PWM_MOTORL_INST_INT_IRQN                                (TIMA0_INT_IRQn)
+#define PWM_MOTORL_INST_CLK_FREQ                                         2000000
+/* GPIO defines for channel 1 */
+#define GPIO_PWM_MOTORL_C1_PORT                                            GPIOA
+#define GPIO_PWM_MOTORL_C1_PIN                                     DL_GPIO_PIN_7
+#define GPIO_PWM_MOTORL_C1_IOMUX                                 (IOMUX_PINCM14)
+#define GPIO_PWM_MOTORL_C1_IOMUX_FUNC                IOMUX_PINCM14_PF_TIMA0_CCP1
+#define GPIO_PWM_MOTORL_C1_IDX                               DL_TIMER_CC_1_INDEX
+
+/* Defines for PWM_MOTORR */
+#define PWM_MOTORR_INST                                                    TIMA1
+#define PWM_MOTORR_INST_IRQHandler                              TIMA1_IRQHandler
+#define PWM_MOTORR_INST_INT_IRQN                                (TIMA1_INT_IRQn)
+#define PWM_MOTORR_INST_CLK_FREQ                                         2000000
+/* GPIO defines for channel 0 */
+#define GPIO_PWM_MOTORR_C0_PORT                                            GPIOA
+#define GPIO_PWM_MOTORR_C0_PIN                                    DL_GPIO_PIN_15
+#define GPIO_PWM_MOTORR_C0_IOMUX                                 (IOMUX_PINCM37)
+#define GPIO_PWM_MOTORR_C0_IOMUX_FUNC                IOMUX_PINCM37_PF_TIMA1_CCP0
+#define GPIO_PWM_MOTORR_C0_IDX                               DL_TIMER_CC_0_INDEX
+
 
 
 /* Defines for TIMER_0 */
 #define TIMER_0_INST                                                     (TIMG0)
 #define TIMER_0_INST_IRQHandler                                 TIMG0_IRQHandler
 #define TIMER_0_INST_INT_IRQN                                   (TIMG0_INT_IRQn)
-#define TIMER_0_INST_LOAD_VALUE                                         (39999U)
+#define TIMER_0_INST_LOAD_VALUE                                         (49999U)
 
 
 
@@ -120,6 +148,47 @@ extern "C" {
 
 
 
+/* Defines for SPI_LCD */
+#define SPI_LCD_INST                                                       SPI1
+#define SPI_LCD_INST_IRQHandler                                 SPI1_IRQHandler
+#define SPI_LCD_INST_INT_IRQN                                     SPI1_INT_IRQn
+#define GPIO_SPI_LCD_PICO_PORT                                            GPIOB
+#define GPIO_SPI_LCD_PICO_PIN                                     DL_GPIO_PIN_8
+#define GPIO_SPI_LCD_IOMUX_PICO                                 (IOMUX_PINCM25)
+#define GPIO_SPI_LCD_IOMUX_PICO_FUNC                 IOMUX_PINCM25_PF_SPI1_PICO
+/* GPIO configuration for SPI_LCD */
+#define GPIO_SPI_LCD_SCLK_PORT                                            GPIOB
+#define GPIO_SPI_LCD_SCLK_PIN                                     DL_GPIO_PIN_9
+#define GPIO_SPI_LCD_IOMUX_SCLK                                 (IOMUX_PINCM26)
+#define GPIO_SPI_LCD_IOMUX_SCLK_FUNC                 IOMUX_PINCM26_PF_SPI1_SCLK
+
+
+
+/* Port definition for Pin Group GPIO_LCD */
+#define GPIO_LCD_PORT                                                    (GPIOB)
+
+/* Defines for PIN_RES: GPIOB.10 with pinCMx 27 on package pin 62 */
+#define GPIO_LCD_PIN_RES_PIN                                    (DL_GPIO_PIN_10)
+#define GPIO_LCD_PIN_RES_IOMUX                                   (IOMUX_PINCM27)
+/* Defines for PIN_DC: GPIOB.11 with pinCMx 28 on package pin 63 */
+#define GPIO_LCD_PIN_DC_PIN                                     (DL_GPIO_PIN_11)
+#define GPIO_LCD_PIN_DC_IOMUX                                    (IOMUX_PINCM28)
+/* Defines for PIN_CS: GPIOB.14 with pinCMx 31 on package pin 2 */
+#define GPIO_LCD_PIN_CS_PIN                                     (DL_GPIO_PIN_14)
+#define GPIO_LCD_PIN_CS_IOMUX                                    (IOMUX_PINCM31)
+/* Defines for PIN_BLK: GPIOB.26 with pinCMx 57 on package pin 28 */
+#define GPIO_LCD_PIN_BLK_PIN                                    (DL_GPIO_PIN_26)
+#define GPIO_LCD_PIN_BLK_IOMUX                                   (IOMUX_PINCM57)
+/* Port definition for Pin Group GPIO_MOTOR */
+#define GPIO_MOTOR_PORT                                                  (GPIOB)
+
+/* Defines for PIN_MOTORL: GPIOB.13 with pinCMx 30 on package pin 1 */
+#define GPIO_MOTOR_PIN_MOTORL_PIN                               (DL_GPIO_PIN_13)
+#define GPIO_MOTOR_PIN_MOTORL_IOMUX                              (IOMUX_PINCM30)
+/* Defines for PIN_MOTORR: GPIOB.15 with pinCMx 32 on package pin 3 */
+#define GPIO_MOTOR_PIN_MOTORR_PIN                               (DL_GPIO_PIN_15)
+#define GPIO_MOTOR_PIN_MOTORR_IOMUX                              (IOMUX_PINCM32)
+
 /* clang-format on */
 
 void SYSCFG_DL_init(void);
@@ -127,8 +196,12 @@ void SYSCFG_DL_initPower(void);
 void SYSCFG_DL_GPIO_init(void);
 void SYSCFG_DL_SYSCTL_init(void);
 void SYSCFG_DL_PWM_LED_init(void);
+void SYSCFG_DL_PWM_MOTORL_init(void);
+void SYSCFG_DL_PWM_MOTORR_init(void);
 void SYSCFG_DL_TIMER_0_init(void);
 void SYSCFG_DL_UART_Emm_init(void);
+void SYSCFG_DL_SPI_LCD_init(void);
+
 
 bool SYSCFG_DL_saveConfiguration(void);
 bool SYSCFG_DL_restoreConfiguration(void);

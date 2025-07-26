@@ -3,137 +3,63 @@
 #include "mid_debug_uart.h"
 #include "string.h"
 #include "hw_lcd.h"
+#include "stdio.h"
+#include "string.h"
 
-void ui_home_page(void);// 首页页面初始化
+void delay_ms(uint32_t ms);
 
+typedef struct {
+    int start_x;
+    int start_y;
+} TXT_OBJECT;
 
 int main(void)
 {
     SYSCFG_DL_init();
-		
-		debug_uart_init();
-		
+			
 		lcd_init();
 	
-		ui_home_page();
-	
-    while (1) 
-		{
+		LCD_BLK_Set();
+		
+		LCD_Fill(0, 0, LCD_W, LCD_H, BLACK);
 
-			delay_cycles(CPUCLK_FREQ / 1000 * 200);
+static float value = 0.0f;
+static float last_value = 65535.0f;  // 设置为不可能的初始值
+static char buff[16];                // 足够大的缓冲区
+
+//TXT_OBJECT txt_value = {0};          // 结构体用于存储显示位置
+//int char_width_pixel = 8;            // 英文字符宽度（8x16字库）
+//int rect_x = 50;                     // 起始位置
+//int rect_y = 80;
+//int rect_w = 8 * 5;                  // 显示5个字符的宽度
+//int rect_h = 16;                     // 字体高度
+
+while (1)
+{
+    if (last_value != value)  // 数值变化时才更新显示
+    {
+        last_value = value;
+
+        // 格式化为字符串
+				sprintf(buff, "Num:%5.2f", value);  // 宽度5，保留两位小数
+				LCD_ShowStr(20,20,buff,16);
+    }
+
+    // 数值递增
+    value += 0.1f;
+    if (value > 99.99f) value = 0.0f;
+
+    delay_ms(10);
+}
+
+}
+
+void delay_ms(uint32_t ms)
+{
+    // 这个是阻塞延时，精度不高，只适合简单测试
+    for(uint32_t i = 0; i < ms * 4000; i++)
+    {
+        __NOP();  // 单周期空指令，耗时间
     }
 }
 
-
-
-/*
-功能说明：显示居中字符串函数用于显示居中的文字，计算文字的居中坐标
-参数说明：  x=屏幕中心x坐标
-        w=屏幕宽度
-        y=屏幕中心y坐标
-        h=屏幕高度
-        str_len=字符串长度
-        sizey=字体大小
-        *str=需要显示的字符串
-        color背景颜色        
-备注：GRAYBLUE 浅蓝色
-      DARKBLUE 深蓝色
-*/
-void disp_x_center(int y, int str_len, uint16_t bc, unsigned char sizey, unsigned char* str)
-{
-    int str_center_x = (sizey * str_len) / 2;//字符串x=字体大小*字符串长度/2
-    int str_center_y = sizey / 2;//字符串y=字体大小/2
-
-    //显示居中坐标的文字    
-	  LCD_ArcRect(screen_center_x - str_center_x - 10, y, screen_center_x + str_center_x + 10, sizey+y, bc);
-    LCD_ShowChinese(screen_center_x - str_center_x,y,str,WHITE,bc,sizey,1);
-}
-
-/*
-功能说明：显示字符串矩形函数用于显示矩形的文字，计算文字的居中坐标
-参数说明：  x=矩形起始x坐标
-        w=矩形宽度
-        y=矩形起始y坐标
-        h=矩形高度
-        str_len=字符串长度
-        sizey=字体大小
-        *str=需要显示的字符串
-        color背景颜色        
-备注：GRAYBLUE 浅蓝色
-      DARKBLUE 深蓝色
-*/
-void disp_string_rect(int x, int w, int y, int h, int str_len, int sizey, unsigned char* str, int color)
-{
-    int str_center_x = (sizey * str_len) / 2; //字符串x = 字体大小*字符串长度/2
-    int rect_center_x = x + (w / 2); //矩形中心x
-    int str_center_y = sizey  / 2; //字符串y=字体大小/2
-    int rect_center_y = y + (h / 2); //矩形中心y
-
-    //显示背景矩形    
-	  LCD_ArcRect(x, y, x + w, y + h, color);
-    //显示字符串
-    LCD_ShowChinese(rect_center_x - str_center_x, rect_center_y - str_center_y,str,WHITE,color,sizey,1);
-}
-
-/*
-功能说明：显示选择框函数用于显示选择框：  x=按钮起始X坐标
-        w=显示的按钮选择框宽度
-        y=按钮起始Y坐标
-        h=显示的按钮选择框高度
-        line_length=选择框边线长度
-        interval=选择框边线间隔 按钮选择框边框之间的距离
-        color=选择框边线颜色
-*/
-void disp_select_box(int x, int w, int y, int h, int line_length, int interval, int color)
-{
-    //计算按钮选择框边框之间的距离+边线
-    x = x - interval;
-    w = w + (interval + interval);
-    y = y - interval;
-    h = h + (interval + interval);
-    //左上角    
-	  LCD_DrawLine(x, y, x + line_length, y, color);
-    LCD_DrawLine(x, y, x, y + line_length, color);
-    //右上角    
-	  LCD_DrawLine(x + w, y, x + w - line_length, y, color);
-    LCD_DrawLine(x + w, y, x + w, y + line_length, color);
-    //左下角    
-	  LCD_DrawLine(x, y + h, x + line_length, y + h, color);
-    LCD_DrawLine(x, y + h, x, y + h - line_length, color);
-    //右下角    
-	  LCD_DrawLine(x + w, y + h, x + w - line_length, y + h, color);
-    LCD_DrawLine(x + w, y + h, x + w, y + h - line_length, color);
-}
-
-//家居页面初始化
-void ui_home_page(void)
-{
-    //关闭背光    
-	  LCD_BLK_Clr();
-
-    //显示全屏背景颜色
-    LCD_Fill(0,0,LCD_W,LCD_H,BLACK);
-    //显示标题
-    disp_x_center(3,5,BLUE,16,(unsigned char *)"立创开发板");
-    //显示副标题
-    disp_x_center(3+16+3,9,BLUE,16,(unsigned char *)"简易PID入门套件");
-
-    int x = 40;
-    int x_offset = 80;
-    int y = 65;
-    int y_offset = 80;
-    //显示第一个按钮：定速
-    disp_string_rect(x, x_offset, y, y_offset, 2, 24, "定速", BLUE);
-    int x2 = 200;
-    int x2_offset = 80;
-    int y2 = 65;
-    int y2_offset = 80;
-    //显示第二个按钮：定距  
-		disp_string_rect(x2, x2_offset, y2, y2_offset, 2, 24, "定距", BLUE);
-    
-    //显示选择框  
-		disp_select_box(40,80,65,80,10,5,WHITE);  
-	
-    //打开背光   
-		LCD_BLK_Set();
-}
