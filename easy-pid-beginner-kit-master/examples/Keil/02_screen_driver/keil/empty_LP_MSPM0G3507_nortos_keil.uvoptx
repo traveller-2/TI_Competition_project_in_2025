@@ -140,7 +140,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>JL2CM3</Key>
-          <Name>-U4294967295 -O78 -S2 -ZTIFSpeedSel5000 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -RST0 -N00("ARM CoreSight SW-DP") -D00(6BA02477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8027 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TFE0 -FO15 -FD20200000 -FC8000 -FN1 -FF0MSPM0G_MAIN_128KB.FLM -FS00 -FL020000 -FP0($$Device:MSPM0G3507$02_Flash_Programming\FlashARM\MSPM0G_MAIN_128KB.FLM)</Name>
+          <Name>-U4294967295 -O78 -S2 -ZTIFSpeedSel5000 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -RST0 -N00("ARM CoreSight SW-DP") -D00(6BA02477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8027 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TFE0 -FO7 -FD20200000 -FC8000 -FN1 -FF0MSPM0G1X0X_G3X0X_MAIN_128KB.FLM -FS00 -FL020000 -FP0($$Device:MSPM0G3507$02_Flash_Programming\FlashARM\MSPM0G1X0X_G3X0X_MAIN_128KB.FLM)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -158,6 +158,22 @@
           <Number>0</Number>
           <Type>0</Type>
           <LineNumber>351</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\hardware\hw_lcd.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>1</Number>
+          <Type>0</Type>
+          <LineNumber>381</LineNumber>
           <EnabledFlag>1</EnabledFlag>
           <Address>0</Address>
           <ByteObject>0</ByteObject>

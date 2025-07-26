@@ -1,5 +1,5 @@
 ./objects/emm.o: ..\module\Emm.c ..\module\Emm.h \
-  ..\..\empty\ti_msp_dl_config.h \
+  ..\..\object\ti_msp_dl_config.h \
   D:\ti\mspm0_sdk_2_05_01_00\source\ti\devices\msp\msp.h \
   D:\ti\mspm0_sdk_2_05_01_00\source\ti\devices\DeviceFamily.h \
   D:\ti\mspm0_sdk_2_05_01_00\source\ti\devices\msp\m0p\mspm0g350x.h \

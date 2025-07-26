@@ -152,7 +152,7 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>67</LineNumber>
+          <LineNumber>34</LineNumber>
           <EnabledFlag>1</EnabledFlag>
           <Address>0</Address>
           <ByteObject>0</ByteObject>
@@ -161,14 +161,14 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
+          <Filename>..\module\motorDriver.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
           <Number>1</Number>
           <Type>0</Type>
-          <LineNumber>58</LineNumber>
+          <LineNumber>33</LineNumber>
           <EnabledFlag>1</EnabledFlag>
           <Address>0</Address>
           <ByteObject>0</ByteObject>
@@ -177,14 +177,110 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
+          <Filename>..\module\motorDriver.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
           <Number>2</Number>
           <Type>0</Type>
-          <LineNumber>44</LineNumber>
+          <LineNumber>52</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>3744</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>../empty.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\empty_LP_MSPM0G3507_nortos_keil\../empty.c\52</Expression>
+        </Bp>
+        <Bp>
+          <Number>3</Number>
+          <Type>0</Type>
+          <LineNumber>55</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>3760</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>../empty.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\empty_LP_MSPM0G3507_nortos_keil\../empty.c\55</Expression>
+        </Bp>
+        <Bp>
+          <Number>4</Number>
+          <Type>0</Type>
+          <LineNumber>58</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>3774</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>../empty.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\empty_LP_MSPM0G3507_nortos_keil\../empty.c\58</Expression>
+        </Bp>
+        <Bp>
+          <Number>5</Number>
+          <Type>0</Type>
+          <LineNumber>61</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>3790</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>../empty.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\empty_LP_MSPM0G3507_nortos_keil\../empty.c\61</Expression>
+        </Bp>
+        <Bp>
+          <Number>6</Number>
+          <Type>0</Type>
+          <LineNumber>64</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>3806</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>../empty.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\empty_LP_MSPM0G3507_nortos_keil\../empty.c\64</Expression>
+        </Bp>
+        <Bp>
+          <Number>7</Number>
+          <Type>0</Type>
+          <LineNumber>67</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>3820</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>../empty.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\empty_LP_MSPM0G3507_nortos_keil\../empty.c\67</Expression>
+        </Bp>
+        <Bp>
+          <Number>8</Number>
+          <Type>0</Type>
+          <LineNumber>32</LineNumber>
           <EnabledFlag>1</EnabledFlag>
           <Address>0</Address>
           <ByteObject>0</ByteObject>
@@ -193,12 +289,12 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
+          <Filename>startup_mspm0g350x_uvision.s</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>3</Number>
+          <Number>9</Number>
           <Type>0</Type>
           <LineNumber>38</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -209,12 +305,12 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
+          <Filename>startup_mspm0g350x_uvision.s</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>4</Number>
+          <Number>10</Number>
           <Type>0</Type>
           <LineNumber>41</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -225,12 +321,28 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
+          <Filename>startup_mspm0g350x_uvision.s</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>5</Number>
+          <Number>11</Number>
+          <Type>0</Type>
+          <LineNumber>42</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>startup_mspm0g350x_uvision.s</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>12</Number>
           <Type>0</Type>
           <LineNumber>43</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -241,12 +353,28 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
+          <Filename>startup_mspm0g350x_uvision.s</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>6</Number>
+          <Number>13</Number>
+          <Type>0</Type>
+          <LineNumber>44</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>startup_mspm0g350x_uvision.s</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>14</Number>
           <Type>0</Type>
           <LineNumber>59</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -257,12 +385,12 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
+          <Filename>startup_mspm0g350x_uvision.s</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>7</Number>
+          <Number>15</Number>
           <Type>0</Type>
           <LineNumber>60</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -273,28 +401,12 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
+          <Filename>startup_mspm0g350x_uvision.s</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>8</Number>
-          <Type>0</Type>
-          <LineNumber>61</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>9</Number>
+          <Number>16</Number>
           <Type>0</Type>
           <LineNumber>62</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -305,12 +417,12 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
+          <Filename>startup_mspm0g350x_uvision.s</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>10</Number>
+          <Number>17</Number>
           <Type>0</Type>
           <LineNumber>63</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -321,92 +433,12 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
+          <Filename>startup_mspm0g350x_uvision.s</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>11</Number>
-          <Type>0</Type>
-          <LineNumber>68</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>12</Number>
-          <Type>0</Type>
-          <LineNumber>63</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>2430</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>D:\妗岄潰\empty\empty.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\empty_LP_MSPM0G3507_nortos_keil\../empty.c\63</Expression>
-        </Bp>
-        <Bp>
-          <Number>13</Number>
-          <Type>0</Type>
-          <LineNumber>60</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>2408</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>D:\妗岄潰\empty\empty.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\empty_LP_MSPM0G3507_nortos_keil\../empty.c\60</Expression>
-        </Bp>
-        <Bp>
-          <Number>14</Number>
-          <Type>0</Type>
-          <LineNumber>61</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>2416</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>D:\妗岄潰\empty\empty.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\empty_LP_MSPM0G3507_nortos_keil\../empty.c\61</Expression>
-        </Bp>
-        <Bp>
-          <Number>15</Number>
-          <Type>0</Type>
-          <LineNumber>42</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>0</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression></Expression>
-        </Bp>
-        <Bp>
-          <Number>16</Number>
+          <Number>18</Number>
           <Type>0</Type>
           <LineNumber>66</LineNumber>
           <EnabledFlag>1</EnabledFlag>
@@ -417,14 +449,14 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>../empty.c</Filename>
+          <Filename>startup_mspm0g350x_uvision.s</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
         <Bp>
-          <Number>17</Number>
+          <Number>19</Number>
           <Type>0</Type>
-          <LineNumber>42</LineNumber>
+          <LineNumber>68</LineNumber>
           <EnabledFlag>1</EnabledFlag>
           <Address>0</Address>
           <ByteObject>0</ByteObject>
@@ -600,6 +632,42 @@
       <bDave2>0</bDave2>
       <PathWithFileName>..\module\Emm.c</PathWithFileName>
       <FilenameWithoutPath>Emm.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>3</GroupNumber>
+      <FileNumber>8</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\module\hw_lcd.c</PathWithFileName>
+      <FilenameWithoutPath>hw_lcd.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>3</GroupNumber>
+      <FileNumber>9</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\module\motorDriver.c</PathWithFileName>
+      <FilenameWithoutPath>motorDriver.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>3</GroupNumber>
+      <FileNumber>10</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\module\motorMonitor.c</PathWithFileName>
+      <FilenameWithoutPath>motorMonitor.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
