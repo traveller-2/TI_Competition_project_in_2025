@@ -454,6 +454,11 @@
               <FileType>1</FileType>
               <FilePath>..\module\motorMonitor.c</FilePath>
             </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\module\pid.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

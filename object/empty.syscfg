@@ -75,7 +75,9 @@ GPIO2.associatedPins.create(2);
 GPIO2.associatedPins[0].$name        = "PIN_MOTORL";
 GPIO2.associatedPins[0].ioStructure  = "SD";
 GPIO2.associatedPins[0].assignedPort = "PORTB";
+GPIO2.associatedPins[0].initialValue = "SET";
 GPIO2.associatedPins[1].$name        = "PIN_MOTORR";
+GPIO2.associatedPins[1].initialValue = "SET";
 
 GPIO3.$name                               = "GPIO_ECODER";
 GPIO3.associatedPins.create(4);

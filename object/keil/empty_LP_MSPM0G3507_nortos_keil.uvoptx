@@ -158,7 +158,7 @@
         <Ww>
           <count>1</count>
           <WinNumber>1</WinNumber>
-          <ItemText>left_cnt,0x0A</ItemText>
+          <ItemText>pwm_l</ItemText>
         </Ww>
         <Ww>
           <count>2</count>
@@ -381,6 +381,18 @@
       <bDave2>0</bDave2>
       <PathWithFileName>..\module\motorMonitor.c</PathWithFileName>
       <FilenameWithoutPath>motorMonitor.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>3</GroupNumber>
+      <FileNumber>13</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\module\pid.c</PathWithFileName>
+      <FilenameWithoutPath>pid.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
