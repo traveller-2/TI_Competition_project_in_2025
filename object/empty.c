@@ -38,33 +38,48 @@
 #include "hw_lcd.h"
 #include "stdio.h"
 #include "motorDriver.h"
+#include "hw_encoder.h"
+#include "mid_timer.h"
 
 void delay_ms(uint32_t ms);
 
+int left_cnt = 0;
+int right_cnt = 0;
+
 int main(void)
 {
-		SYSCFG_DL_init();
+	SYSCFG_DL_init();
+	
+	//编码器初始化
+	encoder_init();
+
+	//定时器初始化
+	timer_init();
+
 	
 	while(1)
 	{
 
-			Motor_SetSpeed(10, 0); // 左正转60%，右反转40%
-			delay_ms(1000);			
-	
-			Motor_SetSpeed(20, 0); // 左正转60%，右反转40%
-			delay_ms(1000);			
+//			Motor_SetSpeed(10, 0); // 左正转60%，右反转40%
+//			delay_ms(1000);			
+//	
+//			Motor_SetSpeed(20, 0); // 左正转60%，右反转40%
+//			delay_ms(1000);			
 
-			Motor_SetSpeed(10, 0); // 左正转60%，右反转40%
-			delay_ms(1000);				
+//			Motor_SetSpeed(10, 0); // 左正转60%，右反转40%
+//			delay_ms(1000);				
 
-			Motor_SetSpeed(-10, 0); // 左正转60%，右反转40%
-			delay_ms(1000);		
-			
-			Motor_SetSpeed(-50, 0); // 左正转60%，右反转40%
-			delay_ms(1000);		
-			
-			Motor_SetSpeed(0, 0); // 左正转60%，右反转40%
-			delay_ms(1000);		
+//			Motor_SetSpeed(-10, 0); // 左正转60%，右反转40%
+//			delay_ms(1000);		
+//			
+//			Motor_SetSpeed(-50, 0); // 左正转60%，右反转40%
+//			delay_ms(1000);		
+//			
+//			Motor_SetSpeed(0, 0); // 左正转60%，右反转40%
+//			delay_ms(1000);		
+	left_cnt = get_encoder_count_l();
+	right_cnt = get_encoder_count_r();
+	delay_ms(2000);	
 	}
 	
 

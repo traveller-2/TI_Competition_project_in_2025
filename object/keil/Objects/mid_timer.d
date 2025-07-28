@@ -1,4 +1,5 @@
-./objects/empty.o: ..\empty.c ..\ti_msp_dl_config.h \
+./objects/mid_timer.o: ..\bsp\mid_timer.c ..\bsp\mid_timer.h \
+  ..\..\object\ti_msp_dl_config.h \
   D:\ti\mspm0_sdk_2_05_01_00\source\ti\devices\msp\msp.h \
   D:\ti\mspm0_sdk_2_05_01_00\source\ti\devices\DeviceFamily.h \
   D:\ti\mspm0_sdk_2_05_01_00\source\ti\devices\msp\m0p\mspm0g350x.h \
@@ -72,6 +73,4 @@
   D:\ti\mspm0_sdk_2_05_01_00\source\ti\driverlib\dl_wwdt.h \
   D:\ti\mspm0_sdk_2_05_01_00\source\ti\driverlib\m0p\dl_interrupt.h \
   D:\ti\mspm0_sdk_2_05_01_00\source\ti\driverlib\m0p\dl_systick.h \
-  ..\bsp\usart.h ..\module\Emm.h ..\module\hw_lcd.h \
-  ..\..\object\ti_msp_dl_config.h ..\module\motorDriver.h \
-  ..\bsp\hw_encoder.h ..\bsp\mid_timer.h
+  ..\bsp\hw_encoder.h

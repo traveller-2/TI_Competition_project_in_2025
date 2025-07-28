@@ -3,6 +3,8 @@
 ".\objects\startup_mspm0g350x_uvision.o"
 ".\objects\ti_msp_dl_config.o"
 ".\objects\usart.o"
+".\objects\mid_timer.o"
+".\objects\hw_encoder.o"
 ".\objects\emm.o"
 ".\objects\hw_lcd.o"
 ".\objects\motordriver.o"
