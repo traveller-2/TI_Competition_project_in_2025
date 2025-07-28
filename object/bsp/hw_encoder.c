@@ -35,7 +35,7 @@ ENCODER_DIR get_encoder_dir_r(void)
 //请间隔一定时间更新
 void encoder_update(void)
 {
-	motor_encoder_l.count += motor_encoder_l.temp_count;
+	motor_encoder_l.count = motor_encoder_l.temp_count;
 
 	//确定方向
 	motor_encoder_l.dir = ( motor_encoder_l.count >= 0 ) ? FORWARD : REVERSAL;
@@ -43,7 +43,7 @@ void encoder_update(void)
 	motor_encoder_l.temp_count = 0;//编码器计数值清零
 	
 	
-	motor_encoder_r.count += motor_encoder_r.temp_count;
+	motor_encoder_r.count = motor_encoder_r.temp_count;
 
 	//确定方向
 	motor_encoder_r.dir = ( motor_encoder_r.count >= 0 ) ? FORWARD : REVERSAL;

@@ -40,11 +40,12 @@
 #include "motorDriver.h"
 #include "hw_encoder.h"
 #include "mid_timer.h"
+#include "motorMonitor.h"
 
 void delay_ms(uint32_t ms);
 
-int left_cnt = 0;
-int right_cnt = 0;
+float left_cnt = 0;
+float right_cnt = 0;
 
 int main(void)
 {
@@ -56,7 +57,18 @@ int main(void)
 	//定时器初始化
 	timer_init();
 
+	lcd_init();
+
+	LCD_BLK_Set();
 	
+	LCD_Fill(0, 0, LCD_W, LCD_H, BLACK);
+	
+
+	int i = 0;
+	static char buff[16];                // 足够大的缓冲区
+	static float value = 0.0f;
+	static float last_value = 65535.0f;  // 设置为不可能的初始值
+
 	while(1)
 	{
 
@@ -77,24 +89,25 @@ int main(void)
 //			
 //			Motor_SetSpeed(0, 0); // 左正转60%，右反转40%
 //			delay_ms(1000);		
-	left_cnt = get_encoder_count_l();
-	right_cnt = get_encoder_count_r();
-	delay_ms(2000);	
+		left_cnt = get_output_rpm_l();
+		right_cnt = get_output_rpm_r();
+			
+			if(value !=last_value)
+		{
+			sprintf(buff,"Val:%5.2f",left_cnt);
+			LCD_ShowStr(32, 32, buff, 15);
+			delay_ms(5);
+			sprintf(buff,"Val:%5.2f",right_cnt);
+			LCD_ShowStr(32, 64, buff, 15);			
+		}
+				
+	delay_ms(50);	
 	}
 	
 
 	
-//		lcd_init();
-//	
-//		LCD_BLK_Set();
-//		
-//		LCD_Fill(0, 0, LCD_W, LCD_H, BLACK);
-//		
 
-//    int i = 0;
-//		static char buff[16];                // 足够大的缓冲区
-//		static float value = 0.0f;
-//		static float last_value = 65535.0f;  // 设置为不可能的初始值
+
 //    while (1)
 //    {
 
@@ -113,12 +126,7 @@ int main(void)
 //            DL_TimerG_setCaptureCompareValue(PWM_LED_INST,i,GPIO_PWM_LED_C1_IDX);
 //            delay_ms(1);  // 延迟以控制亮度变化速度
 //        }
-//				if(value !=last_value)
-//				{
-//					sprintf(buff,"Val:%5.2f",value);
-//					LCD_ShowStr(32, 32, buff, 15);
-//					value++;
-//				}
+
 //				
 //				Emm_V5_Vel_Control(1,0,200,5,0);
 //				delay_ms(1000);
