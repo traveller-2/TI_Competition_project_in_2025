@@ -158,7 +158,11 @@
         <Ww>
           <count>1</count>
           <WinNumber>1</WinNumber>
+<<<<<<< HEAD
           <ItemText>pwm_l</ItemText>
+=======
+          <ItemText>left_cnt,0x0A</ItemText>
+>>>>>>> origin/main
         </Ww>
         <Ww>
           <count>2</count>
@@ -384,6 +388,7 @@
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
+<<<<<<< HEAD
     <File>
       <GroupNumber>3</GroupNumber>
       <FileNumber>13</FileNumber>
@@ -396,6 +401,8 @@
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
+=======
+>>>>>>> origin/main
   </Group>
 
 </ProjectOpt>
