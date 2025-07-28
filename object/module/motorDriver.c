@@ -23,23 +23,23 @@ void Motor_SetSpeed(int8_t left, int8_t right)
     // 左电机控制
     if (left > 0) {
         // 正转
-        DL_GPIO_clearPins(GPIO_MOTOR_PORT, GPIO_MOTOR_PIN_MOTORL_PIN);
+        DL_GPIO_clearPins(GPIO_MOTOR_PIN_MOTORL_PORT, GPIO_MOTOR_PIN_MOTORL_PIN);
         DL_TimerA_setCaptureCompareValue(PWM_MOTORL_INST, PWM_PERIOD_COUNT-left,
                                          DL_TIMER_CC_1_INDEX);  // left ∈ 0~100
     } else {
         // 反转
-        DL_GPIO_setPins(GPIO_MOTOR_PORT, GPIO_MOTOR_PIN_MOTORL_PIN);
+        DL_GPIO_setPins(GPIO_MOTOR_PIN_MOTORL_PORT, GPIO_MOTOR_PIN_MOTORL_PIN);
         DL_TimerA_setCaptureCompareValue(PWM_MOTORL_INST, -left,
                                          DL_TIMER_CC_1_INDEX);  // 100 - abs(left)
     }
 
     // 右电机控制
     if (right > 0) {
-        DL_GPIO_clearPins(GPIO_MOTOR_PORT, GPIO_MOTOR_PIN_MOTORR_PIN);
+        DL_GPIO_clearPins(GPIO_MOTOR_PIN_MOTORR_PORT, GPIO_MOTOR_PIN_MOTORR_PIN);
         DL_TimerA_setCaptureCompareValue(PWM_MOTORR_INST, PWM_PERIOD_COUNT-right,
                                          GPIO_PWM_MOTORR_C0_IDX);
     } else {
-        DL_GPIO_setPins(GPIO_MOTOR_PORT, GPIO_MOTOR_PIN_MOTORR_PIN);
+        DL_GPIO_setPins(GPIO_MOTOR_PIN_MOTORR_PORT, GPIO_MOTOR_PIN_MOTORR_PIN);
         DL_TimerA_setCaptureCompareValue(PWM_MOTORR_INST, -right,
                                          GPIO_PWM_MOTORR_C0_IDX);
     }

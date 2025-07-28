@@ -419,6 +419,16 @@
               <FileType>1</FileType>
               <FilePath>..\bsp\usart.c</FilePath>
             </File>
+            <File>
+              <FileName>mid_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\mid_timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>hw_encoder.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\bsp\hw_encoder.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

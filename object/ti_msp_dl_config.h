@@ -125,6 +125,16 @@ extern "C" {
 #define TIMER_0_INST_IRQHandler                                 TIMG0_IRQHandler
 #define TIMER_0_INST_INT_IRQN                                   (TIMG0_INT_IRQn)
 #define TIMER_0_INST_LOAD_VALUE                                         (49999U)
+/* Defines for TIMER_1 */
+#define TIMER_1_INST                                                     (TIMG6)
+#define TIMER_1_INST_IRQHandler                                 TIMG6_IRQHandler
+#define TIMER_1_INST_INT_IRQN                                   (TIMG6_INT_IRQn)
+#define TIMER_1_INST_LOAD_VALUE                                             (0U)
+/* Defines for TIMER_TICK */
+#define TIMER_TICK_INST                                                  (TIMG7)
+#define TIMER_TICK_INST_IRQHandler                              TIMG7_IRQHandler
+#define TIMER_TICK_INST_INT_IRQN                                (TIMG7_INT_IRQn)
+#define TIMER_TICK_INST_LOAD_VALUE                                      (19999U)
 
 
 
@@ -179,15 +189,36 @@ extern "C" {
 /* Defines for PIN_BLK: GPIOB.26 with pinCMx 57 on package pin 28 */
 #define GPIO_LCD_PIN_BLK_PIN                                    (DL_GPIO_PIN_26)
 #define GPIO_LCD_PIN_BLK_IOMUX                                   (IOMUX_PINCM57)
-/* Port definition for Pin Group GPIO_MOTOR */
-#define GPIO_MOTOR_PORT                                                  (GPIOB)
+/* Defines for PIN_MOTORL: GPIOB.18 with pinCMx 44 on package pin 15 */
+#define GPIO_MOTOR_PIN_MOTORL_PORT                                       (GPIOB)
+#define GPIO_MOTOR_PIN_MOTORL_PIN                               (DL_GPIO_PIN_18)
+#define GPIO_MOTOR_PIN_MOTORL_IOMUX                              (IOMUX_PINCM44)
+/* Defines for PIN_MOTORR: GPIOA.12 with pinCMx 34 on package pin 5 */
+#define GPIO_MOTOR_PIN_MOTORR_PORT                                       (GPIOA)
+#define GPIO_MOTOR_PIN_MOTORR_PIN                               (DL_GPIO_PIN_12)
+#define GPIO_MOTOR_PIN_MOTORR_IOMUX                              (IOMUX_PINCM34)
+/* Port definition for Pin Group GPIO_ECODER */
+#define GPIO_ECODER_PORT                                                 (GPIOB)
 
-/* Defines for PIN_MOTORL: GPIOB.13 with pinCMx 30 on package pin 1 */
-#define GPIO_MOTOR_PIN_MOTORL_PIN                               (DL_GPIO_PIN_13)
-#define GPIO_MOTOR_PIN_MOTORL_IOMUX                              (IOMUX_PINCM30)
-/* Defines for PIN_MOTORR: GPIOB.15 with pinCMx 32 on package pin 3 */
-#define GPIO_MOTOR_PIN_MOTORR_PIN                               (DL_GPIO_PIN_15)
-#define GPIO_MOTOR_PIN_MOTORR_IOMUX                              (IOMUX_PINCM32)
+/* Defines for LEFT_A: GPIOB.17 with pinCMx 43 on package pin 14 */
+// pins affected by this interrupt request:["LEFT_A","LEFT_B","RIGHT_A","RIGHT_B"]
+#define GPIO_ECODER_INT_IRQN                                    (GPIOB_INT_IRQn)
+#define GPIO_ECODER_INT_IIDX                    (DL_INTERRUPT_GROUP1_IIDX_GPIOB)
+#define GPIO_ECODER_LEFT_A_IIDX                             (DL_GPIO_IIDX_DIO17)
+#define GPIO_ECODER_LEFT_A_PIN                                  (DL_GPIO_PIN_17)
+#define GPIO_ECODER_LEFT_A_IOMUX                                 (IOMUX_PINCM43)
+/* Defines for LEFT_B: GPIOB.16 with pinCMx 33 on package pin 4 */
+#define GPIO_ECODER_LEFT_B_IIDX                             (DL_GPIO_IIDX_DIO16)
+#define GPIO_ECODER_LEFT_B_PIN                                  (DL_GPIO_PIN_16)
+#define GPIO_ECODER_LEFT_B_IOMUX                                 (IOMUX_PINCM33)
+/* Defines for RIGHT_A: GPIOB.15 with pinCMx 32 on package pin 3 */
+#define GPIO_ECODER_RIGHT_A_IIDX                            (DL_GPIO_IIDX_DIO15)
+#define GPIO_ECODER_RIGHT_A_PIN                                 (DL_GPIO_PIN_15)
+#define GPIO_ECODER_RIGHT_A_IOMUX                                (IOMUX_PINCM32)
+/* Defines for RIGHT_B: GPIOB.13 with pinCMx 30 on package pin 1 */
+#define GPIO_ECODER_RIGHT_B_IIDX                            (DL_GPIO_IIDX_DIO13)
+#define GPIO_ECODER_RIGHT_B_PIN                                 (DL_GPIO_PIN_13)
+#define GPIO_ECODER_RIGHT_B_IOMUX                                (IOMUX_PINCM30)
 
 /* clang-format on */
 
@@ -199,6 +230,8 @@ void SYSCFG_DL_PWM_LED_init(void);
 void SYSCFG_DL_PWM_MOTORL_init(void);
 void SYSCFG_DL_PWM_MOTORR_init(void);
 void SYSCFG_DL_TIMER_0_init(void);
+void SYSCFG_DL_TIMER_1_init(void);
+void SYSCFG_DL_TIMER_TICK_init(void);
 void SYSCFG_DL_UART_Emm_init(void);
 void SYSCFG_DL_SPI_LCD_init(void);
 
