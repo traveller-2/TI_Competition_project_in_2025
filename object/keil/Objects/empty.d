@@ -74,4 +74,4 @@
   D:\ti\mspm0_sdk_2_05_01_00\source\ti\driverlib\m0p\dl_systick.h \
   ..\bsp\usart.h ..\module\Emm.h ..\module\hw_lcd.h \
   ..\..\object\ti_msp_dl_config.h ..\module\motorDriver.h \
-  ..\bsp\hw_encoder.h ..\bsp\mid_timer.h
+  ..\bsp\hw_encoder.h ..\bsp\mid_timer.h ..\module\motorMonitor.h
