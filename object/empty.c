@@ -41,20 +41,12 @@
 #include "hw_encoder.h"
 #include "mid_timer.h"
 #include "motorMonitor.h"
-<<<<<<< HEAD
 #include "pid.h"
 
 float pwm_l = 0;
 float pwm_r = 0;
 
 void delay_ms(uint32_t ms);
-=======
-
-void delay_ms(uint32_t ms);
-
-float left_cnt = 0;
-float right_cnt = 0;
->>>>>>> origin/main
 
 int main(void)
 {
@@ -72,7 +64,6 @@ int main(void)
 	
 	LCD_Fill(0, 0, LCD_W, LCD_H, BLACK);
 	
-<<<<<<< HEAD
 	PID_t pid_left_motor;    // 左电机 PID 控制器
 	PID_t pid_right_motor;   // 右电机 PID 控制器
 	
@@ -83,9 +74,6 @@ int main(void)
 	pid_left_motor.setpoint = 100.0f;   // 例如希望左轮转速 150rpm
 	pid_right_motor.setpoint = 100.0f;
 	
-=======
-
->>>>>>> origin/main
 	int i = 0;
 	static char buff[16];                // 足够大的缓冲区
 	static float value = 0.0f;
@@ -111,7 +99,6 @@ int main(void)
 //			
 //			Motor_SetSpeed(0, 0); // 左正转60%，右反转40%
 //			delay_ms(1000);		
-<<<<<<< HEAD
 		float rpm_l = get_output_rpm_l();
 		float rpm_r = get_output_rpm_r();
 
@@ -128,21 +115,6 @@ int main(void)
 		}
 	Motor_SetSpeed((int)pwm_l, (int)pwm_r);
 	delay_ms(40);	
-=======
-		left_cnt = get_output_rpm_l();
-		right_cnt = get_output_rpm_r();
-			
-			if(value !=last_value)
-		{
-			sprintf(buff,"Val:%5.2f",left_cnt);
-			LCD_ShowStr(32, 32, buff, 15);
-			delay_ms(5);
-			sprintf(buff,"Val:%5.2f",right_cnt);
-			LCD_ShowStr(32, 64, buff, 15);			
-		}
-				
-	delay_ms(50);	
->>>>>>> origin/main
 	}
 	
 

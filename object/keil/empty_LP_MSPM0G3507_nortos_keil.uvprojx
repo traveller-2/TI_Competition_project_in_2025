@@ -454,14 +454,11 @@
               <FileType>1</FileType>
               <FilePath>..\module\motorMonitor.c</FilePath>
             </File>
-<<<<<<< HEAD
             <File>
               <FileName>pid.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\module\pid.c</FilePath>
             </File>
-=======
->>>>>>> origin/main
           </Files>
         </Group>
       </Groups>
