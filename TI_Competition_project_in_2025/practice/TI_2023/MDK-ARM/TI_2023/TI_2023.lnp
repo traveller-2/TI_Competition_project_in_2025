@@ -37,6 +37,8 @@
 "ti_2023\bsp_usart.o"
 "ti_2023\gimbal_motor.o"
 "ti_2023\device_reader.o"
+"ti_2023\pid.o"
+"ti_2023\coord_queue.o"
 --strict --scatter "TI_2023\TI_2023.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

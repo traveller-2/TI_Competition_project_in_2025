@@ -27,6 +27,7 @@
 #include "device_reader.h"
 #include "gimbal_motor.h"
 #include "bsp_usart.h"
+#include "coord_queue.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -99,6 +100,7 @@ int main(void)
 	BSP_USART_Init();
 	GimbalMotor_QueueInit();   // 消息队列初始化
 	HAL_UART_Receive_IT(&huart2, &uart_rx_byte, 1);  // 开启接收中断
+	init_coord_queue(&test);
   /* USER CODE END 2 */
 
   /* Init scheduler */

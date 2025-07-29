@@ -50,3 +50,4 @@ ti_2023\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ti_2023\main.o: ../bsp/bsp_usart.h
 ti_2023\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ti_2023\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+ti_2023\main.o: ../module/coord_queue.h

@@ -37,3 +37,4 @@ ti_2023\device_reader.o: ../bsp/bsp_usart.h
 ti_2023\device_reader.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ti_2023\device_reader.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 ti_2023\device_reader.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+ti_2023\device_reader.o: ..\module\coord_queue.h

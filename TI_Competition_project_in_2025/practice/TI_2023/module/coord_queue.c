@@ -1,12 +1,14 @@
 #include "coord_queue.h"
 #include <stdlib.h>
 
+CoordQueue test;
+
 void init_coord_queue(CoordQueue* q) {
     q->front = NULL;
     q->rear = NULL;
 }
 
-void enqueue_coord(CoordQueue* q, int x, int y) {
+void enqueue_coord(CoordQueue* q, float x, float y) {
     CoordNode* new_node = (CoordNode*)malloc(sizeof(CoordNode));
     if (!new_node) return;
 

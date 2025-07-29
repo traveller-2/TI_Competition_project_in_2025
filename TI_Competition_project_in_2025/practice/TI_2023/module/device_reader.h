@@ -10,7 +10,7 @@
 #define FRAME_HEAD_2_Y 0x02  // delta_y
 #define FRAME_TAIL     0x55
 
-#define FRAME_LENGTH   7
+#define FRAME_LENGTH   6
 
 
 // 公共变量：用于在其他模块中读取当前位移信息

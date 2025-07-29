@@ -6,8 +6,8 @@
 #include <stdint.h>
 
 typedef struct {
-    int x;
-    int y;
+    float x;
+    float y;
 } Point;
 
 typedef struct CoordNode {
@@ -22,9 +22,11 @@ typedef struct {
 
 // º¯ÊýÉùÃ÷
 void init_coord_queue(CoordQueue* q);
-void enqueue_coord(CoordQueue* q, int x, int y);
+void enqueue_coord(CoordQueue* q, float x, float y);
 int dequeue_coord(CoordQueue* q, Point* out_point);
 void free_coord_queue(CoordQueue* q);
 int is_coord_queue_empty(CoordQueue* q);
+
+extern CoordQueue test;
 
 #endif
